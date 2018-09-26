@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"title"					"dig2"
+	"description"			"Dig towards guns and danger. Beware a twist awaits."
+	"version"				"1.0"
+	"author"				"Beazus"
+	"authorSteamID64"		"76561197992155580"
+}

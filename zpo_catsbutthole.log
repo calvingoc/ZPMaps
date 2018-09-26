@@ -1,0 +1,3900 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6750 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 13
+Reduced 5 texdatas to 5 (118 bytes to 118)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+  29 portalclusters
+  67 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 641
+Average clusters visible: 22
+Building PAS...
+Average clusters audible: 22
+visdatasize:468  compressed from 464
+writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+103 faces
+78833 square feet [11351998.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+103 patches before subdivision
+4959 patches after subdivision
+1 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 271869, max 235
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0010 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             115/65536         920/524288   ( 0.2%) 
+planes                 114/65536        2280/1310720  ( 0.2%) 
+vertexes               144/65536        1728/786432   ( 0.2%) 
+nodes                   92/65536        2944/2097152  ( 0.1%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  103/65536        5768/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  96/65536        3072/2097152  ( 0.1%) 
+leaffaces              121/65536         242/131072   ( 0.2%) 
+leafbrushes             54/65536         108/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges              574/512000       2296/2048000  ( 0.1%) 
+edges                  321/256000       1284/1024000  ( 0.1%) 
+LDR worldlights          1/8192           88/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      488100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]       10576/393216   ( 2.7%) 
+LDR ambient table       96/65536         384/262144   ( 0.1%) 
+HDR ambient table       96/65536         384/262144   ( 0.1%) 
+LDR leaf ambient        43/65536        1204/1835008  ( 0.1%) 
+HDR leaf ambient        96/65536        2688/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        6750/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 219
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6750 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 17 texinfos to 13
+Reduced 5 texdatas to 5 (118 bytes to 118)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+  29 portalclusters
+  67 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 641
+Average clusters visible: 22
+Building PAS...
+Average clusters audible: 22
+visdatasize:468  compressed from 464
+writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+103 faces
+78833 square feet [11351998.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+103 patches before subdivision
+4959 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 271869, max 235
+transfer lists:   2.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5286, 5125, 4642)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(805, 756, 621)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(122, 111, 82)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(18, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0009 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                 18/8192          216/98304    ( 0.2%) 
+brushsides             115/65536         920/524288   ( 0.2%) 
+planes                 114/65536        2280/1310720  ( 0.2%) 
+vertexes               144/65536        1728/786432   ( 0.2%) 
+nodes                   92/65536        2944/2097152  ( 0.1%) 
+texinfos                13/12288         936/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  103/65536        5768/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               38/65536        2128/3670016  ( 0.1%) 
+leaves                  96/65536        3072/2097152  ( 0.1%) 
+leaffaces              121/65536         242/131072   ( 0.2%) 
+leafbrushes             54/65536         108/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges              574/512000       2296/2048000  ( 0.1%) 
+edges                  321/256000       1284/1024000  ( 0.1%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            12/65536          24/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      488100/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]       10913/393216   ( 2.8%) 
+LDR ambient table       96/65536         384/262144   ( 0.1%) 
+HDR ambient table       96/65536         384/262144   ( 0.1%) 
+LDR leaf ambient       146/65536        4088/1835008  ( 0.2%) 
+HDR leaf ambient        96/65536        2688/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]        6750/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 219
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_win_human (-11.76 -712.75 457.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 288.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 424.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2720.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 512.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 1024.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12611 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 20
+Reduced 5 texdatas to 5 (118 bytes to 118)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+382 faces
+189518 square feet [27290704.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             219/65536        1752/524288   ( 0.3%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               453/65536        5436/786432   ( 0.7%) 
+nodes                  254/65536        8128/2097152  ( 0.4%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  382/65536       21392/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              136/65536        7616/3670016  ( 0.2%) 
+leaves                 260/65536        8320/2097152  ( 0.4%) 
+leaffaces              426/65536         852/131072   ( 0.7%) 
+leafbrushes             82/65536         164/131072   ( 0.1%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2231/512000       8924/2048000  ( 0.4%) 
+edges                 1223/256000       4892/1024000  ( 0.5%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           159/65536         318/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      886008/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12955/393216   ( 3.3%) 
+LDR ambient table      260/65536        1040/262144   ( 0.4%) 
+HDR ambient table      260/65536        1040/262144   ( 0.4%) 
+LDR leaf ambient       324/65536        9072/1835008  ( 0.5%) 
+HDR leaf ambient       260/65536        7280/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       12611/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 931
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_win_human (-11.76 -712.75 457.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 288.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 424.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2720.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 512.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 1024.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12611 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 23 texinfos to 20
+Reduced 5 texdatas to 5 (118 bytes to 118)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+381 faces
+189178 square feet [27241744.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             219/65536        1752/524288   ( 0.3%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               446/65536        5352/786432   ( 0.7%) 
+nodes                  258/65536        8256/2097152  ( 0.4%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  381/65536       21336/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              135/65536        7560/3670016  ( 0.2%) 
+leaves                 264/65536        8448/2097152  ( 0.4%) 
+leaffaces              430/65536         860/131072   ( 0.7%) 
+leafbrushes             86/65536         172/131072   ( 0.1%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2221/512000       8884/2048000  ( 0.4%) 
+edges                 1217/256000       4868/1024000  ( 0.5%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           150/65536         300/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      877504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12955/393216   ( 3.3%) 
+LDR ambient table      264/65536        1056/262144   ( 0.4%) 
+HDR ambient table      264/65536        1056/262144   ( 0.4%) 
+LDR leaf ambient       325/65536        9100/1835008  ( 0.5%) 
+HDR leaf ambient       264/65536        7392/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       12611/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 927
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_win_human (-11.76 -712.75 457.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 288.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 424.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2720.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 512.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 1024.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12707 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 27 texinfos to 23
+Reduced 7 texdatas to 6 (210 bytes to 145)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+382 faces
+189259 square feet [27253368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             221/65536        1768/524288   ( 0.3%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes               450/65536        5400/786432   ( 0.7%) 
+nodes                  261/65536        8352/2097152  ( 0.4%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  382/65536       21392/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              137/65536        7672/3670016  ( 0.2%) 
+leaves                 267/65536        8544/2097152  ( 0.4%) 
+leaffaces              433/65536         866/131072   ( 0.7%) 
+leafbrushes             86/65536         172/131072   ( 0.1%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2235/512000       8940/2048000  ( 0.4%) 
+edges                 1222/256000       4888/1024000  ( 0.5%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             13/32768         130/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           162/65536         324/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      889052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13060/393216   ( 3.3%) 
+LDR ambient table      267/65536        1068/262144   ( 0.4%) 
+HDR ambient table      267/65536        1068/262144   ( 0.4%) 
+LDR leaf ambient       322/65536        9016/1835008  ( 0.5%) 
+HDR leaf ambient       267/65536        7476/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211682/0        ( 0.0%) 
+physics               [variable]       12707/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 929
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_win_human (-11.76 -712.75 457.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 64.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 288.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 424.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2720.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (3072.0 512.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2560.0 1024.0 160.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12707 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 27 texinfos to 23
+Reduced 7 texdatas to 6 (210 bytes to 145)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+382 faces
+189259 square feet [27253368.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             221/65536        1768/524288   ( 0.3%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes               450/65536        5400/786432   ( 0.7%) 
+nodes                  261/65536        8352/2097152  ( 0.4%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  382/65536       21392/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              137/65536        7672/3670016  ( 0.2%) 
+leaves                 267/65536        8544/2097152  ( 0.4%) 
+leaffaces              433/65536         866/131072   ( 0.7%) 
+leafbrushes             86/65536         172/131072   ( 0.1%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             2235/512000       8940/2048000  ( 0.4%) 
+edges                 1222/256000       4888/1024000  ( 0.5%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             13/32768         130/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           162/65536         324/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      889052/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12814/393216   ( 3.3%) 
+LDR ambient table      267/65536        1068/262144   ( 0.4%) 
+HDR ambient table      267/65536        1068/262144   ( 0.4%) 
+LDR leaf ambient       322/65536        9016/1835008  ( 0.5%) 
+HDR leaf ambient       267/65536        7476/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211682/0        ( 0.0%) 
+physics               [variable]       12707/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 929
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_win_human (-11.76 -712.75 457.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 424.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 32.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -72.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13187 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 37 texinfos to 31
+Reduced 8 texdatas to 8 (203 bytes to 203)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+352 faces
+191167 square feet [27528164.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             218/65536        1744/524288   ( 0.3%) 
+planes                 164/65536        3280/1310720  ( 0.3%) 
+vertexes               425/65536        5100/786432   ( 0.6%) 
+nodes                  245/65536        7840/2097152  ( 0.4%) 
+texinfos                31/12288        2232/884736   ( 0.3%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  352/65536       19712/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              138/65536        7728/3670016  ( 0.2%) 
+leaves                 251/65536        8032/2097152  ( 0.4%) 
+leaffaces              383/65536         766/131072   ( 0.6%) 
+leafbrushes             78/65536         156/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2135/512000       8540/2048000  ( 0.4%) 
+edges                 1180/256000       4720/1024000  ( 0.5%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           156/65536         312/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      789552/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12714/393216   ( 3.2%) 
+LDR ambient table      251/65536        1004/262144   ( 0.4%) 
+HDR ambient table      251/65536        1004/262144   ( 0.4%) 
+LDR leaf ambient       398/65536       11144/1835008  ( 0.6%) 
+HDR leaf ambient       251/65536        7028/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       13187/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 882
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_win_human (-11.76 -712.75 457.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 424.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 32.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -72.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13187 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 31
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+348 faces
+191167 square feet [27528164.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 35/8192          420/98304    ( 0.4%) 
+brushsides             218/65536        1744/524288   ( 0.3%) 
+planes                 164/65536        3280/1310720  ( 0.3%) 
+vertexes               417/65536        5004/786432   ( 0.6%) 
+nodes                  245/65536        7840/2097152  ( 0.4%) 
+texinfos                31/12288        2232/884736   ( 0.3%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  348/65536       19488/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              138/65536        7728/3670016  ( 0.2%) 
+leaves                 251/65536        8032/2097152  ( 0.4%) 
+leaffaces              379/65536         758/131072   ( 0.6%) 
+leafbrushes             78/65536         156/131072   ( 0.1%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2111/512000       8444/2048000  ( 0.4%) 
+edges                 1168/256000       4672/1024000  ( 0.5%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             12/32768         120/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           156/65536         312/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      780688/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12977/393216   ( 3.3%) 
+LDR ambient table      251/65536        1004/262144   ( 0.4%) 
+HDR ambient table      251/65536        1004/262144   ( 0.4%) 
+LDR leaf ambient       477/65536       13356/1835008  ( 0.7%) 
+HDR leaf ambient       251/65536        7028/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       13187/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 866
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (30385 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 75 texinfos to 50
+Reduced 7 texdatas to 7 (148 bytes to 148)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+  58 portalclusters
+ 128 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 2072
+Average clusters visible: 35
+Building PAS...
+Average clusters audible: 50
+visdatasize:1404  compressed from 928
+writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+392 faces
+108773 square feet [15663319.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+392 patches before subdivision
+17624 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1799550, max 344
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(6760, 5599, 5116)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1047, 782, 646)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(161, 112, 84)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(25, 16, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0033 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  29/1024         1392/49152    ( 2.8%) 
+brushes                 70/8192          840/98304    ( 0.9%) 
+brushsides             430/65536        3440/524288   ( 0.7%) 
+planes                 206/65536        4120/1310720  ( 0.3%) 
+vertexes               565/65536        6780/786432   ( 0.9%) 
+nodes                  320/65536       10240/2097152  ( 0.5%) 
+texinfos                50/12288        3600/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  392/65536       21952/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              267/65536       14952/3670016  ( 0.4%) 
+leaves                 350/65536       11200/2097152  ( 0.5%) 
+leaffaces              441/65536         882/131072   ( 0.7%) 
+leafbrushes            127/65536         254/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2759/512000      11036/2048000  ( 0.5%) 
+edges                 1481/256000       5924/1024000  ( 0.6%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           219/65536         438/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      373204/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1404/16777216 ( 0.0%) 
+entdata               [variable]       27984/393216   ( 7.1%) 
+LDR ambient table      350/65536        1400/262144   ( 0.5%) 
+HDR ambient table      350/65536        1400/262144   ( 0.5%) 
+LDR leaf ambient      1223/65536       34244/1835008  ( 1.9%) 
+HDR leaf ambient       350/65536        9800/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       30385/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 912
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (30385 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 75 texinfos to 50
+Reduced 7 texdatas to 7 (148 bytes to 148)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+  58 portalclusters
+ 128 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.05%)
+Total clusters visible: 2073
+Average clusters visible: 35
+Building PAS...
+Average clusters audible: 50
+visdatasize:1404  compressed from 928
+writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+392 faces
+108773 square feet [15663319.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+392 patches before subdivision
+17624 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1799550, max 344
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14631, 8125, 7640)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2336, 914, 778)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(372, 119, 91)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(60, 17, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(10, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  29/1024         1392/49152    ( 2.8%) 
+brushes                 70/8192          840/98304    ( 0.9%) 
+brushsides             430/65536        3440/524288   ( 0.7%) 
+planes                 206/65536        4120/1310720  ( 0.3%) 
+vertexes               565/65536        6780/786432   ( 0.9%) 
+nodes                  320/65536       10240/2097152  ( 0.5%) 
+texinfos                50/12288        3600/884736   ( 0.4%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  392/65536       21952/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              267/65536       14952/3670016  ( 0.4%) 
+leaves                 350/65536       11200/2097152  ( 0.5%) 
+leaffaces              441/65536         882/131072   ( 0.7%) 
+leafbrushes            127/65536         254/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2759/512000      11036/2048000  ( 0.5%) 
+edges                 1481/256000       5924/1024000  ( 0.6%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           219/65536         438/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      373204/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1404/16777216 ( 0.0%) 
+entdata               [variable]       28218/393216   ( 7.2%) 
+LDR ambient table      350/65536        1400/262144   ( 0.5%) 
+HDR ambient table      350/65536        1400/262144   ( 0.5%) 
+LDR leaf ambient      1359/65536       38052/1835008  ( 2.1%) 
+HDR leaf ambient       350/65536        9800/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       30385/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 912
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (38621 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 91 texinfos to 65
+Reduced 7 texdatas to 7 (148 bytes to 148)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+  96 portalclusters
+ 224 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.16%)
+Total clusters visible: 3197
+Average clusters visible: 33
+Building PAS...
+Average clusters audible: 64
+visdatasize:3030  compressed from 3072
+writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+543 faces
+142856 square feet [20571266.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+543 patches before subdivision
+22387 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2250376, max 342
+transfer lists:  17.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14533, 8091, 7606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2271, 907, 771)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(358, 119, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(57, 17, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(9, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0082 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  31/1024         1488/49152    ( 3.0%) 
+brushes                 91/8192         1092/98304    ( 1.1%) 
+brushsides             576/65536        4608/524288   ( 0.9%) 
+planes                 308/65536        6160/1310720  ( 0.5%) 
+vertexes               800/65536        9600/786432   ( 1.2%) 
+nodes                  401/65536       12832/2097152  ( 0.6%) 
+texinfos                65/12288        4680/884736   ( 0.5%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  543/65536       30408/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              345/65536       19320/3670016  ( 0.5%) 
+leaves                 433/65536       13856/2097152  ( 0.7%) 
+leaffaces              644/65536        1288/131072   ( 1.0%) 
+leafbrushes            161/65536         322/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             3799/512000      15196/2048000  ( 0.7%) 
+edges                 2048/256000       8192/1024000  ( 0.8%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             40/32768         400/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           549/65536        1098/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      473612/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3030/16777216 ( 0.0%) 
+entdata               [variable]       31188/393216   ( 7.9%) 
+LDR ambient table      433/65536        1732/262144   ( 0.7%) 
+HDR ambient table      433/65536        1732/262144   ( 0.7%) 
+LDR leaf ambient       768/65536       21504/1835008  ( 1.2%) 
+HDR leaf ambient       433/65536       12124/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       38621/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1338
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (43607 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 106 texinfos to 80
+Reduced 7 texdatas to 7 (148 bytes to 148)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+  96 portalclusters
+ 224 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 5 visible clusters (0.16%)
+Total clusters visible: 3197
+Average clusters visible: 33
+Building PAS...
+Average clusters audible: 64
+visdatasize:3030  compressed from 3072
+writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+597 faces
+146440 square feet [21087362.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+597 patches before subdivision
+23053 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2286696, max 342
+transfer lists:  17.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14533, 8091, 7606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2271, 907, 771)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(358, 119, 90)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(57, 17, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(9, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0055 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  40/1024         1920/49152    ( 3.9%) 
+brushes                100/8192         1200/98304    ( 1.2%) 
+brushsides             630/65536        5040/524288   ( 1.0%) 
+planes                 320/65536        6400/1310720  ( 0.5%) 
+vertexes               872/65536       10464/786432   ( 1.3%) 
+nodes                  455/65536       14560/2097152  ( 0.7%) 
+texinfos                80/12288        5760/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  597/65536       33432/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              399/65536       22344/3670016  ( 0.6%) 
+leaves                 496/65536       15872/2097152  ( 0.8%) 
+leaffaces              698/65536        1396/131072   ( 1.1%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             4231/512000      16924/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             40/32768         400/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           549/65536        1098/131072   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      484988/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3030/16777216 ( 0.0%) 
+entdata               [variable]       35868/393216   ( 9.1%) 
+LDR ambient table      496/65536        1984/262144   ( 0.8%) 
+HDR ambient table      496/65536        1984/262144   ( 0.8%) 
+LDR leaf ambient       822/65536       23016/1835008  ( 1.3%) 
+HDR leaf ambient       496/65536       13888/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       43607/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1446
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_text (353.76 -1196.75 521.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44162 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 108 texinfos to 89
+Reduced 7 texdatas to 7 (148 bytes to 148)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+900 faces
+279929 square feet [40309892.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  41/1024         1968/49152    ( 4.0%) 
+brushes                101/8192         1212/98304    ( 1.2%) 
+brushsides             636/65536        5088/524288   ( 1.0%) 
+planes                 322/65536        6440/1310720  ( 0.5%) 
+vertexes              1190/65536       14280/786432   ( 1.8%) 
+nodes                  599/65536       19168/2097152  ( 0.9%) 
+texinfos                89/12288        6408/884736   ( 0.7%) 
+texdata                  7/2048          224/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  900/65536       50400/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              472/65536       26432/3670016  ( 0.7%) 
+leaves                 641/65536       20512/2097152  ( 1.0%) 
+leaffaces             1018/65536        2036/131072   ( 1.6%) 
+leafbrushes            168/65536         336/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             5947/512000      23788/2048000  ( 1.2%) 
+edges                 3150/256000      12600/1024000  ( 1.2%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             73/32768         730/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1002/65536        2004/131072   ( 1.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      968596/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       36793/393216   ( 9.4%) 
+LDR ambient table      641/65536        2564/262144   ( 1.0%) 
+HDR ambient table      641/65536        2564/262144   ( 1.0%) 
+LDR leaf ambient      1056/65536       29568/1835008  ( 1.6%) 
+HDR leaf ambient       641/65536       17948/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       44162/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2264
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_text (353.76 -1196.75 521.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45088 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 115 texinfos to 93
+Reduced 8 texdatas to 8 (168 bytes to 168)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+916 faces
+280521 square feet [40395140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0073 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  42/1024         2016/49152    ( 4.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             648/65536        5184/524288   ( 1.0%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  607/65536       19424/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  916/65536       51296/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                 650/65536       20800/2097152  ( 1.0%) 
+leaffaces             1026/65536        2052/131072   ( 1.6%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6073/512000      24292/2048000  ( 1.2%) 
+edges                 3219/256000      12876/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1065/65536        2130/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      969788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       36969/393216   ( 9.4%) 
+LDR ambient table      650/65536        2600/262144   ( 1.0%) 
+HDR ambient table      650/65536        2600/262144   ( 1.0%) 
+LDR leaf ambient      1063/65536       29764/1835008  ( 1.6%) 
+HDR leaf ambient       650/65536       18200/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       45088/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2318
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_text (353.76 -1196.75 521.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 112 texinfos to 93
+Reduced 8 texdatas to 8 (168 bytes to 168)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+916 faces
+280408 square feet [40378756.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0080 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  42/1024         2016/49152    ( 4.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             648/65536        5184/524288   ( 1.0%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  607/65536       19424/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  916/65536       51296/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                 650/65536       20800/2097152  ( 1.0%) 
+leaffaces             1026/65536        2052/131072   ( 1.6%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6073/512000      24292/2048000  ( 1.2%) 
+edges                 3219/256000      12876/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1065/65536        2130/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      969788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       36997/393216   ( 9.4%) 
+LDR ambient table      650/65536        2600/262144   ( 1.0%) 
+HDR ambient table      650/65536        2600/262144   ( 1.0%) 
+LDR leaf ambient      1063/65536       29764/1835008  ( 1.6%) 
+HDR leaf ambient       650/65536       18200/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       45087/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2318
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_text (353.76 -1196.75 521.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 115 texinfos to 93
+Reduced 8 texdatas to 8 (168 bytes to 168)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+916 faces
+280408 square feet [40378756.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  42/1024         2016/49152    ( 4.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             648/65536        5184/524288   ( 1.0%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  607/65536       19424/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  916/65536       51296/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                 650/65536       20800/2097152  ( 1.0%) 
+leaffaces             1026/65536        2052/131072   ( 1.6%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6073/512000      24292/2048000  ( 1.2%) 
+edges                 3219/256000      12876/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1065/65536        2130/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      969788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       36985/393216   ( 9.4%) 
+LDR ambient table      650/65536        2600/262144   ( 1.0%) 
+HDR ambient table      650/65536        2600/262144   ( 1.0%) 
+LDR leaf ambient      1063/65536       29764/1835008  ( 1.6%) 
+HDR leaf ambient       650/65536       18200/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       45087/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2318
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_text (353.76 -1196.75 521.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 115 texinfos to 93
+Reduced 8 texdatas to 8 (168 bytes to 168)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+916 faces
+280521 square feet [40395140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  42/1024         2016/49152    ( 4.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             648/65536        5184/524288   ( 1.0%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  607/65536       19424/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  916/65536       51296/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                 650/65536       20800/2097152  ( 1.0%) 
+leaffaces             1026/65536        2052/131072   ( 1.6%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6073/512000      24292/2048000  ( 1.2%) 
+edges                 3219/256000      12876/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1065/65536        2130/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      970108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       37004/393216   ( 9.4%) 
+LDR ambient table      650/65536        2600/262144   ( 1.0%) 
+HDR ambient table      650/65536        2600/262144   ( 1.0%) 
+LDR leaf ambient      1063/65536       29764/1835008  ( 1.6%) 
+HDR leaf ambient       650/65536       18200/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       45087/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2318
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity game_text (353.76 -1196.75 521.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 115 texinfos to 93
+Reduced 8 texdatas to 8 (168 bytes to 168)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+916 faces
+280521 square feet [40395140.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0065 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  42/1024         2016/49152    ( 4.1%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             648/65536        5184/524288   ( 1.0%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  607/65536       19424/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  916/65536       51296/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              482/65536       26992/3670016  ( 0.7%) 
+leaves                 650/65536       20800/2097152  ( 1.0%) 
+leaffaces             1026/65536        2052/131072   ( 1.6%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6073/512000      24292/2048000  ( 1.2%) 
+edges                 3219/256000      12876/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1065/65536        2130/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      970108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       37042/393216   ( 9.4%) 
+LDR ambient table      650/65536        2600/262144   ( 1.0%) 
+HDR ambient table      650/65536        2600/262144   ( 1.0%) 
+LDR leaf ambient      1063/65536       29764/1835008  ( 1.6%) 
+HDR leaf ambient       650/65536       18200/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       45087/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2318
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity logic_case (149.29 -1618.90 393.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44534 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 112 texinfos to 90
+Reduced 8 texdatas to 8 (168 bytes to 168)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+910 faces
+280351 square feet [40370564.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  41/1024         1968/49152    ( 4.0%) 
+brushes                102/8192         1224/98304    ( 1.2%) 
+brushsides             642/65536        5136/524288   ( 1.0%) 
+planes                 322/65536        6440/1310720  ( 0.5%) 
+vertexes              1209/65536       14508/786432   ( 1.8%) 
+nodes                  601/65536       19232/2097152  ( 0.9%) 
+texinfos                90/12288        6480/884736   ( 0.7%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  910/65536       50960/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              476/65536       26656/3670016  ( 0.7%) 
+leaves                 643/65536       20576/2097152  ( 1.0%) 
+leaffaces             1020/65536        2040/131072   ( 1.6%) 
+leafbrushes            169/65536         338/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6025/512000      24100/2048000  ( 1.2%) 
+edges                 3195/256000      12780/1024000  ( 1.2%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1065/65536        2130/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      970108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       38978/393216   ( 9.9%) 
+LDR ambient table      643/65536        2572/262144   ( 1.0%) 
+HDR ambient table      643/65536        2572/262144   ( 1.0%) 
+LDR leaf ambient      1057/65536       29596/1835008  ( 1.6%) 
+HDR leaf ambient       643/65536       18004/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       44534/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2306
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity logic_case (149.29 -1618.90 393.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44534 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 112 texinfos to 90
+Reduced 8 texdatas to 8 (168 bytes to 168)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+910 faces
+280351 square feet [40370564.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  41/1024         1968/49152    ( 4.0%) 
+brushes                102/8192         1224/98304    ( 1.2%) 
+brushsides             642/65536        5136/524288   ( 1.0%) 
+planes                 322/65536        6440/1310720  ( 0.5%) 
+vertexes              1209/65536       14508/786432   ( 1.8%) 
+nodes                  601/65536       19232/2097152  ( 0.9%) 
+texinfos                90/12288        6480/884736   ( 0.7%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  910/65536       50960/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              476/65536       26656/3670016  ( 0.7%) 
+leaves                 643/65536       20576/2097152  ( 1.0%) 
+leaffaces             1020/65536        2040/131072   ( 1.6%) 
+leafbrushes            169/65536         338/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6025/512000      24100/2048000  ( 1.2%) 
+edges                 3195/256000      12780/1024000  ( 1.2%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/32768         780/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1065/65536        2130/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      970108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       38978/393216   ( 9.9%) 
+LDR ambient table      643/65536        2572/262144   ( 1.0%) 
+HDR ambient table      643/65536        2572/262144   ( 1.0%) 
+LDR leaf ambient      1057/65536       29596/1835008  ( 1.6%) 
+HDR leaf ambient       643/65536       18004/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       44534/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2306
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity logic_case (149.29 -1618.90 393.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44931 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 115 texinfos to 93
+Reduced 9 texdatas to 9 (193 bytes to 193)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+917 faces
+280664 square feet [40415620.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  41/1024         1968/49152    ( 4.0%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             648/65536        5184/524288   ( 1.0%) 
+planes                 322/65536        6440/1310720  ( 0.5%) 
+vertexes              1216/65536       14592/786432   ( 1.9%) 
+nodes                  605/65536       19360/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  917/65536       51352/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              481/65536       26936/3670016  ( 0.7%) 
+leaves                 647/65536       20704/2097152  ( 1.0%) 
+leaffaces             1030/65536        2060/131072   ( 1.6%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6077/512000      24308/2048000  ( 1.2%) 
+edges                 3227/256000      12908/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             75/32768         750/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1026/65536        2052/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      970172/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       39134/393216   (10.0%) 
+LDR ambient table      647/65536        2588/262144   ( 1.0%) 
+HDR ambient table      647/65536        2588/262144   ( 1.0%) 
+LDR leaf ambient      1071/65536       29988/1835008  ( 1.6%) 
+HDR leaf ambient       647/65536       18116/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       44931/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2324
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity logic_case (149.29 -1618.90 393.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44931 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 115 texinfos to 93
+Reduced 9 texdatas to 9 (193 bytes to 193)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+918 faces
+280806 square feet [40436100.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  41/1024         1968/49152    ( 4.0%) 
+brushes                103/8192         1236/98304    ( 1.3%) 
+brushsides             648/65536        5184/524288   ( 1.0%) 
+planes                 322/65536        6440/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  604/65536       19328/2097152  ( 0.9%) 
+texinfos                93/12288        6696/884736   ( 0.8%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  918/65536       51408/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              480/65536       26880/3670016  ( 0.7%) 
+leaves                 646/65536       20672/2097152  ( 1.0%) 
+leaffaces             1027/65536        2054/131072   ( 1.6%) 
+leafbrushes            170/65536         340/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6077/512000      24308/2048000  ( 1.2%) 
+edges                 3227/256000      12908/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             74/32768         740/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1008/65536        2016/131072   ( 1.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      970300/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       39130/393216   (10.0%) 
+LDR ambient table      646/65536        2584/262144   ( 1.0%) 
+HDR ambient table      646/65536        2584/262144   ( 1.0%) 
+LDR leaf ambient      1067/65536       29876/1835008  ( 1.6%) 
+HDR leaf ambient       646/65536       18088/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       44931/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2326
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zps\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity logic_case (149.29 -1618.90 393.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 -104.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2176.0 0.0 488.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2336.0 0.0 192.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 -40.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2464.0 0.0 160.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2592.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (2848.0 0.0 56.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (45731 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 120 texinfos to 98
+Reduced 10 texdatas to 10 (226 bytes to 226)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Zombie Panic Source\zpo_catsbutthole.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+reading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[55 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+No vis information, direct lighting only.
+946 faces
+283067 square feet [40761724.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0066 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  41/1024         1968/49152    ( 4.0%) 
+brushes                105/8192         1260/98304    ( 1.3%) 
+brushsides             664/65536        5312/524288   ( 1.0%) 
+planes                 328/65536        6560/1310720  ( 0.5%) 
+vertexes              1258/65536       15096/786432   ( 1.9%) 
+nodes                  617/65536       19744/2097152  ( 0.9%) 
+texinfos                98/12288        7056/884736   ( 0.8%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  946/65536       52976/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              488/65536       27328/3670016  ( 0.7%) 
+leaves                 659/65536       21088/2097152  ( 1.0%) 
+leaffaces             1058/65536        2116/131072   ( 1.6%) 
+leafbrushes            178/65536         356/131072   ( 0.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges             6241/512000      24964/2048000  ( 1.2%) 
+edges                 3315/256000      13260/1024000  ( 1.3%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             76/32768         760/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1035/65536        2070/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      980956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       39132/393216   (10.0%) 
+LDR ambient table      659/65536        2636/262144   ( 1.0%) 
+HDR ambient table      659/65536        2636/262144   ( 1.0%) 
+LDR leaf ambient      1101/65536       30828/1835008  ( 1.7%) 
+HDR leaf ambient       659/65536       18452/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105695/0        ( 0.0%) 
+physics               [variable]       45731/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2402
+Writing c:\program files (x86)\steam\steamapps\common\zombie panic source\zpo_catsbutthole.bsp
+1 second elapsed

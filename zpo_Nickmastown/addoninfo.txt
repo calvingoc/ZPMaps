@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"title"					"Nickmastime"
+	"description"			"Protect Nick so he can finish Nickmastime. Then escape town to spread the Nickmas cheer."
+	"version"				"1.0"
+	"author"				"Beazus"
+	"authorSteamID64"		"76561197992155580"
+}
